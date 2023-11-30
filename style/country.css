@@ -1,5 +1,5 @@
 section:first-of-type{
-    background: linear-gradient(180deg, red 33%,#fff 33%, #fff 40%, blue 40%, blue 55%, #fff 55%, #fff 62%, green 62% );
+    background: linear-gradient(180deg, red 33%,#fff 33%, #fff 40%, blue 40%, blue 62%, #fff 62%, #fff 69%, green 69% );
 }
 
 section:nth-of-type(2){
