@@ -1,0 +1,31 @@
+section:first-of-type{
+    background: linear-gradient(90deg, #3c9 70%, #00F 70%, blue 85%, red 85%);
+    background: linear-gradient(90deg, green 33%, #fff 33%, #fff 67%, green 67%);
+
+    background-image: linear-gradient(to top right, yellow 45%, crimson 45%);
+}
+
+section:nth-of-type(2){
+    background: radial-gradient(circle, violet 20%, crimson 20%);
+}
+
+section:last-of-type{
+    color: transparent;
+    background: conic-gradient(
+        purple 15%,
+        khaki 15%,
+        khaki 45%,
+        fuchsia 45%,
+        fuchsia 60%,
+        tomato 60%,
+        tomato 75%,
+        #333 75%,
+        #333 85%,
+        green 85%
+    );
+     -webkit-background-clip: text;
+}
+
+aside{
+    background: repeating-linear-gradient(30deg, red 8%, violet 10% );
+}
