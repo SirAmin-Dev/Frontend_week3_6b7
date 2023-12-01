@@ -1,0 +1,31 @@
+body>:first-child{
+    background-image: url(../media/ampersand-studios-pp_oXEb2H48-unsplash.jpg);
+    background-size: contain;
+}
+
+body>:nth-child(2){
+    background-image: url(../media/dino-reichmuth-A5rCN8626Ck-unsplash.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
+body>:nth-child(3){
+background-image: url(../media/pngimg.com\ -\ square_PNG19.png), url(../media/circle-png-21498.png), url(../media/triangle-png-16935.png), linear-gradient(to left, crimson 20%, violet 20%);
+background-size: 100px, 100px, 100px, 20px;
+background-repeat: repeat-y, repeat-x, no-repeat, repeat;
+background-position: top left, center, bottom right;
+}
+
+body>:nth-child(4){
+    background-image: url(../media/triangle-png-16935.png), url(../media/triangle-png-16935.png), url(../media/triangle-png-16935.png), url(../media/triangle-png-16935.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: 30px 50px, 26.5px 10px, 200px 10px, 200px 54px;
+}
+
+body>:nth-child(5){
+    background: red;
+    background-image: url(../media/china_flag.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
